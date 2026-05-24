@@ -1,0 +1,98 @@
+.contact__inner {
+  text-align: center;
+}
+
+.contact__intro {
+  margin: 0 auto 2.5rem;
+}
+
+.contact__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact__email-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: var(--accent);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px var(--accent-glow);
+  transition: transform 0.2s var(--ease-out), background 0.2s, box-shadow 0.2s;
+}
+
+.contact__email-btn:hover {
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px var(--accent-glow);
+}
+
+.contact__email-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact__email-address {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 0.2s;
+}
+
+.contact__email-address:hover {
+  color: var(--accent);
+}
+
+.contact__copy-btn {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 0.4rem 0.85rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.contact__copy-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.contact__socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text-secondary);
+  transition: border-color 0.2s, color 0.2s, transform 0.2s var(--ease-out);
+}
+
+.contact__social-link svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.contact__social-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+}

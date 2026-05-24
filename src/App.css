@@ -1,0 +1,6 @@
+/* App-level layout styles */
+
+main {
+  /* Push content below fixed header */
+  padding-top: var(--header-height);
+}
