@@ -16,7 +16,8 @@ export const projects: Project[] = [
     description:
       'This website — my first shipped project. A responsive React portfolio with dark mode, smooth scrolling, scroll animations, and a mobile-friendly layout. Built from scratch with React, TypeScript, and Vite.',
     tags: ['React', 'TypeScript', 'Vite', 'CSS'],
-    githubUrl: 'https://github.com/throwerderricka-arch',
+    liveUrl: 'https://portfolio-seven-rho-37.vercel.app/',
+    githubUrl: 'https://github.com/throwerderricka-arch/Portfolio',
     gradient: 'linear-gradient(135deg, #8b5cf6 0%, #6366f1 50%, #3b82f6 100%)',
   },
   {
