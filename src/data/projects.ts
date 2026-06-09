@@ -21,12 +21,13 @@ export const projects: Project[] = [
     gradient: 'linear-gradient(135deg, #8b5cf6 0%, #6366f1 50%, #3b82f6 100%)',
   },
   {
-    id: 'coming-soon',
-    title: 'Full-Stack App (In Progress)',
+    id: 'task-manager',
+    title: 'Task Manager — Full-Stack App',
     description:
-      'My next project — a full-stack web app using React, Node.js, and Express. Currently in development. Check back soon or follow my GitHub for updates.',
-    tags: ['React', 'Node.js', 'Express', 'TypeScript'],
-    comingSoon: true,
-    gradient: 'linear-gradient(135deg, #27272a 0%, #3f3f46 50%, #52525b 100%)',
+      'A full-stack task manager with a React/TypeScript frontend and Express REST API. Features CRUD operations, filter tabs (All/Active/Done), JSON file persistence, and a unified production deploy serving both UI and API from one server.',
+    tags: ['React', 'Node.js', 'Express', 'TypeScript', 'REST API'],
+    liveUrl: 'https://task-manager-uwzw.onrender.com',
+    githubUrl: 'https://github.com/throwerderricka-arch/task-manager',
+    gradient: 'linear-gradient(135deg, #06b6d4 0%, #8b5cf6 100%)',
   },
 ]
